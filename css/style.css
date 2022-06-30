@@ -1,0 +1,490 @@
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+header {
+  margin-bottom: 28px;
+}
+
+.container {
+  max-width: 1294px;
+}
+.container .navbar-logo {
+  margin: 30px 240px 29px 0;
+}
+.container .nav-info {
+  margin-right: 250px;
+}
+.container .nav-info a {
+  margin-right: 33px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.container #navbarNavDropdown {
+  margin: 30px 0 29px 0;
+}
+
+.fonts-inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.fonts-readexpro {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.font-size-p13 {
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.font-size-p24 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.font-size-h28 {
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.font-size-h42 {
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.new-phones {
+  margin-bottom: 75px;
+}
+.new-phones .container {
+  background: #DCE5E2;
+  border-radius: 32px;
+}
+.new-phones .phones {
+  margin: 145px 0 127px 56px;
+  max-width: 588px;
+}
+.new-phones .phones h1 {
+  font-size: 58px;
+  line-height: 70px;
+  margin-bottom: 19px;
+}
+.new-phones .phones p {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+.new-phones .btn {
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  padding: 14px 53px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  transition: 0.6s;
+}
+.new-phones .btn:hover {
+  transform: scale(1.1);
+}
+
+.shop h2 {
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.shop .tempor p {
+  margin-bottom: 55px;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+}
+
+.true_laptop {
+  border-radius: 32px;
+  max-width: 639px;
+  margin-bottom: 72px;
+}
+.true_laptop .laptop-img {
+  max-width: 500px;
+}
+.true_laptop .laptops {
+  max-width: 192px;
+  margin-right: 20px;
+  margin-left: auto;
+}
+.true_laptop .lap-img {
+  margin-left: 42px;
+}
+.true_laptop .watch {
+  max-width: 128px;
+}
+.true_laptop .watch-img {
+  margin-left: 42px;
+  margin-right: 46px;
+}
+
+.day-life {
+  max-width: 312px;
+  padding: 114px 0 114px 16px;
+  margin-right: 16px;
+  margin-bottom: 100px;
+}
+.day-life img {
+  margin-bottom: 41px;
+}
+
+.your-work {
+  max-width: 312px;
+  padding: 114px 0 115px;
+  margin-bottom: 100px;
+}
+.your-work .work {
+  max-width: 233px;
+  margin-bottom: 42px;
+  margin-left: 39px;
+}
+
+.selled-items {
+  margin-bottom: 74px;
+}
+.selled-items .selled {
+  margin-bottom: 59px;
+}
+.selled-items .selled h3 {
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.selled-items .selled p {
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+}
+.selled-items .info-img {
+  padding-left: 28px;
+}
+.selled-items .info-img img {
+  margin-bottom: 37px;
+}
+.selled-items .info-img p:nth-child(2) {
+  margin-bottom: 9px;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  text-align: left;
+}
+.selled-items .info-img p:nth-child(3) {
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.selled-items .info-img p:nth-child(4) {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-align: left;
+}
+.selled-items .info-img p.inf-cntnt {
+  margin-bottom: 25px;
+}
+
+.see-here {
+  padding-bottom: 75px;
+}
+.see-here .here {
+  margin-bottom: 56px;
+}
+.see-here .smart-light {
+  max-width: 413px;
+  padding-top: 41px;
+  background: #F8F9FA;
+  border-radius: 16px;
+  margin-right: 18px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.see-here .smart-light .fonts-readexpro {
+  margin-bottom: 30px;
+}
+.see-here .smart-light .latest-img {
+  max-width: 259px;
+  margin: auto;
+}
+.see-here .smart-light .best-img {
+  max-width: 294px;
+  margin: auto;
+}
+.see-here .smart-light .every-img {
+  max-width: 355px;
+  margin: auto;
+}
+.see-here .btn {
+  display: block;
+  margin: auto;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  padding: 14px 53px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  transition: 0.6s;
+  margin-bottom: 30px;
+}
+.see-here .btn:hover {
+  transform: scale(1.1);
+}
+
+.ideas-place {
+  padding-bottom: 75px;
+}
+.ideas-place .place {
+  margin-bottom: 56px;
+}
+.ideas-place .place-info p {
+  margin-bottom: 28px;
+}
+.ideas-place .place-img {
+  margin-bottom: 72px;
+}
+.ideas-place .see-all a {
+  text-decoration: none;
+  transition: 0.6s;
+}
+.ideas-place .see-all a:hover {
+  color: black;
+  transform: scale(1.1);
+}
+.ideas-place .see-all a .arrow {
+  transition: 0.6s;
+}
+.ideas-place .see-all a .arrow:hover {
+  transform: scale(1.1);
+}
+
+.anything-else .search input {
+  padding: 21px 400px 22px 20px;
+  background: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+  color: black;
+}
+
+.owl-dots .owl-dot span {
+  display: inline-block;
+  width: 194px;
+  height: 2px;
+  background-color: black;
+  border-radius: 0%;
+  margin: 30px;
+}
+
+.owl-dots .owl-dot.active span {
+  background-color: white;
+  transform: scale(1);
+}
+
+.owl-dots {
+  position: absolute;
+  left: 245px;
+  bottom: 1px;
+}
+
+.owl-nav {
+  height: 0;
+}
+
+.owl-nav .owl-prev:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f053";
+  color: #08090D;
+  font-size: 25px;
+  position: absolute;
+  bottom: 251px;
+  left: 19px;
+}
+
+.owl-nav .owl-next:after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f054";
+  color: #08090D;
+  font-size: 25px;
+  position: absolute;
+  bottom: 248px;
+  right: 19px;
+}
+
+@media only screen and (max-width: 627px) {
+  .owl-dots {
+    display: none;
+  }
+  header {
+    margin-bottom: 18px;
+  }
+  .container .navbar-logo {
+    margin: 20px 0 10px 0;
+  }
+  .container .navbar-nav {
+    flex-direction: row;
+    margin-right: 0;
+    justify-content: center;
+  }
+  .container .nav-info a {
+    margin-right: 28px;
+  }
+  .container .navbar .navbar-toggler {
+    margin-top: 10px;
+  }
+  .new-phones {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .new-phones .phones {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .new-phones .phones h1 {
+    font-size: 29px;
+    line-height: 38px;
+    margin-bottom: 19px;
+  }
+  .new-phones .phones-img {
+    max-width: 350px;
+    margin: auto;
+  }
+  .look {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .btn {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .shop .true_laptop {
+    margin-bottom: 25px;
+  }
+  .shop .watch-img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .shop .laptop-img .lap-img {
+    margin-left: 0;
+  }
+  .shop .row {
+    justify-content: center;
+    align-items: center;
+  }
+  .shop .day-life {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .selled-items .info-img {
+    text-align: center;
+  }
+  .see-here {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .see-here .row {
+    justify-content: center;
+  }
+  .see-here .row .smart-light {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .container .navbar-logo {
+    margin: 20px 0 10px 0;
+  }
+  .container .navbar-nav {
+    flex-direction: row;
+    margin-right: 0;
+    justify-content: center;
+  }
+  .container .nav-info a {
+    margin-right: 28px;
+  }
+  .container .navbar .navbar-toggler {
+    margin-top: 10px;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .new-phones {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .new-phones .look {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .new-phones .phones {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    max-width: 700px;
+  }
+  .new-phones .phones h1 {
+    font-size: 29px;
+    line-height: 38px;
+    margin-bottom: 19px;
+  }
+  .new-phones .phones-img {
+    max-width: 380px;
+    margin: auto;
+  }
+  .btn {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 50px;
+  }
+  .shop .row {
+    justify-content: center;
+  }
+  .shop .true_laptop {
+    max-width: 100%;
+  }
+  .shop .true_laptop .watch {
+    margin-right: 42px;
+  }
+  .shop .day-life {
+    margin-right: 73px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .shop .row {
+    justify-content: center;
+  }
+  .shop .true_laptop .lap-img {
+    margin-left: 0;
+  }
+  .shop .true_laptop .watch {
+    margin-right: 42px;
+  }
+  .shop .day-life {
+    margin-right: 73px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
