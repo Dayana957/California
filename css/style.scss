@@ -116,30 +116,31 @@ header{
       text-align: center;
     }
   }
+  .true_laptop{
+    border-radius: 32px;
+    max-width: 639px;
+    margin-bottom: 72px;
+    .laptop-img{
+      max-width: 500px;
+    }
+    .laptops{
+      max-width: 192px;
+      margin-right: 20px;
+      margin-left: auto;
+    }
+    .lap-img{
+      margin-left: 42px;
+    }
+    .watch{
+      max-width: 128px;
+      margin-right: 42px;
+    }
+    .watch-img{
+      margin-left: 42px;
+      margin-right: 46px;
+    }
   }
-.true_laptop{
-  border-radius: 32px;
-  max-width: 639px;
-  margin-bottom: 72px;
-  .laptop-img{
-    max-width: 500px;
   }
-  .laptops{
-    max-width: 192px;
-    margin-right: 20px;
-    margin-left: auto;
-  }
-  .lap-img{
-    margin-left: 42px;
-  }
-  .watch{
-    max-width: 128px;
-  }
-  .watch-img{
-    margin-left: 42px;
-    margin-right: 46px;
-  }
-}
 
 .day-life{
   max-width: 312px;
