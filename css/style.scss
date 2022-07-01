@@ -33,7 +33,7 @@ header{
 }
 
 .fonts-readexpro{
-  font-family: 'Readex Pro';
+  font-family: 'Readex Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #000000;
@@ -293,17 +293,41 @@ header{
 }
 
 .anything-else{
-  .search{
-    input{
-      padding: 21px 400px 22px 20px;
-      background: #F8F9FA;
-      border: 1px solid #C5C5C5;
-      border-radius: 100px;
-      color: black;
+      .submit-text {
+        margin: auto;
+        max-width: 650px;
+        border-radius: 42px;
+        background: #F8F9FA;
+        border: 1px solid #C5C5C5;
+        outline: none;
+        position: relative;
+        transition: .3s linear;
+        input{
+          border: none;
+          background: #F8F9FA;
+          padding-top: 22px;
+          padding-bottom: 21px;
+          &::placeholder{
+            font-family: 'Inter', sans-serif;;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 17px;
+            color: #000000;
+          }
+        }
+      }
+      .submit-text button {
+        background: none;
+        border: none;
+        font-size: 18px;
+      }
+      .submit-text button:before{
+        content: "\f002";
+        font-family: FontAwesome;
+        color: #324b4e;
+      }
     }
-  }
-}
-
 .owl-dots .owl-dot span{
   display: inline-block;
   width: 194px;
@@ -511,6 +535,7 @@ header{
     }
   }
 }
+
 
 @media only screen and (max-width: 768px){
   .shop {

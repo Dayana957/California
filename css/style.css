@@ -33,7 +33,7 @@ header {
 }
 
 .fonts-readexpro {
-  font-family: "Readex Pro";
+  font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #000000;
@@ -111,27 +111,27 @@ header {
   color: #000000;
   text-align: center;
 }
-
-.true_laptop {
+.shop .true_laptop {
   border-radius: 32px;
   max-width: 639px;
   margin-bottom: 72px;
 }
-.true_laptop .laptop-img {
+.shop .true_laptop .laptop-img {
   max-width: 500px;
 }
-.true_laptop .laptops {
+.shop .true_laptop .laptops {
   max-width: 192px;
   margin-right: 20px;
   margin-left: auto;
 }
-.true_laptop .lap-img {
+.shop .true_laptop .lap-img {
   margin-left: 42px;
 }
-.true_laptop .watch {
+.shop .true_laptop .watch {
   max-width: 128px;
+  margin-right: 42px;
 }
-.true_laptop .watch-img {
+.shop .true_laptop .watch-img {
   margin-left: 42px;
   margin-right: 46px;
 }
@@ -279,12 +279,39 @@ header {
   transform: scale(1.1);
 }
 
-.anything-else .search input {
-  padding: 21px 400px 22px 20px;
+.anything-else .submit-text {
+  margin: auto;
+  max-width: 650px;
+  border-radius: 42px;
   background: #F8F9FA;
   border: 1px solid #C5C5C5;
-  border-radius: 100px;
-  color: black;
+  outline: none;
+  position: relative;
+  transition: 0.3s linear;
+}
+.anything-else .submit-text input {
+  border: none;
+  background: #F8F9FA;
+  padding-top: 22px;
+  padding-bottom: 21px;
+}
+.anything-else .submit-text input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #000000;
+}
+.anything-else .submit-text button {
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+.anything-else .submit-text button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
 }
 
 .owl-dots .owl-dot span {
